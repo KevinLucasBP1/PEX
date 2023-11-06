@@ -114,9 +114,38 @@ ul h2{
     text-align: center;
 }
 
-.carros{
-    padding-top: 30px;
+#contatos{
+    background-color: #1B252F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid rgba(0, 0, 0, 0.267);
 }
+
+.social h2 {
+    color: white;
+    display: contents;
+    justify-content: center;
+    align-items: center;
+}
+
+.social p,a {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social{
+    width: 250px;
+    height: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.274); display: flex;
+   
+}
+
+
 
 
 
