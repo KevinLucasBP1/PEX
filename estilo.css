@@ -1,10 +1,17 @@
 @charset "UTF-8";
 
-main{
+html{
+    scroll-behavior: smooth;
+}
+
+body{
     font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
     height: 100%vh;
     width: 100%vw;
-    margin: 0;
+    margin: auto;
     padding: 0;
 }
 
@@ -48,8 +55,77 @@ a:hover{
     background-color: #aa5e5e;
     color: white;
 }
+
+#descricao{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url(imagens/background-3.jpg);
+    width: auto;
+    height:1000px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#descricao > h1 {
+    padding-top: 33px;
+    color: red;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#descricao > p {
+    font-family: arial;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    padding-top: 123px;
+    padding-bottom: 30px;
+    margin: 37px;
+}
+
+.automoveis{
+    padding: 10px 20px 10px 20px;
+    border: 10px;
+    margin: 10px;
+}
+
 ul{
     list-style: none;
     display: flex;
     justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
 }
+
+img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
+}
+
+
+ul h2{
+    margin: auto;
+    background-color: #D22F2F;
+    color: white;
+    text-align: center;
+}
+
+.carros{
+    padding-top: 30px;
+}
+
+
+
+@media screen and (max-width:950px) {
+    ul{
+        width: 100%;
+        flex-direction: column;
+    }
+
+}
+
+                    
