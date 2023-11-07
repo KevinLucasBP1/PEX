@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedrão multimarcas-CD Car</title>
+    <link rel="shortcut icon" href="favicon_io (1)/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        .container {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.ad-col {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 100%;
+}
+
+.ad-motorcycle, .ad-car {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-bottom: 20px;
+ border: 2px solid #ccc;
+ padding: 10px;
+ width: 80%;
+}
+
+.ad-name {
+ background-color: red;
+ color: white;
+ padding: 5px 10px;
+ margin-bottom: 10px;
+}
+
+.ad-info {
+    text-align: center;
+    margin-bottom: 5px;
+ color: #333;
+}
+
+img {
+ max-width: 100%;
+ height: auto;
+}
+
+@media screen and (max-width: 600px) {
+ .container {
+   flex-direction: column;
+ }
+}
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Pedrão Multimarcas</h1>
+        <p>Pedrão Multimarcas, mais de 16 anos no mercado fazendo excelentes negócios.
+            Vem andar de carro novo!</p>
+
+            <nav>
+                <a href="#historia">QUEM SOMOS</a>
+                <a href="#produtos">PRODUTOS</a>
+                <a href="#contatos">CONTATO</a>
+            </nav>
+    </header>
+
+    <main>
+
+        <div id="descricao">
+           <h1>ESTA PROCURANDO O SEU NOVO AUTOMOVEL POR UM PREÇO CAMARADA? BOM VOCÊ ENCONTROU!!</h1>
+           <p>AQUI NA PEDRÃO AUTOMOVEIS VOCÊ PODER ENCONTRAR FACILMENTE O SEU VEICULO DOS SONHOS E POR UM OTIMO PREÇO,GARANTIMOS UM ATENDIMENTO RAPIDO E SEGURO E ATENDENDO O MELHOR PARA O CLIENTE ENTAO VEJA A BAIXO OS MELHORES PRODUTOS QUE A PEDRÃO OS OFERECE </p>
+        </div>
+       
+
+                <div id="produtos">
+                    <h1>Aqui estão alguns de nossos produtos</h1>
+                </div>
+
+        <div class="container">
+            <div class="ad-col">
+               <div class="ad-motorcycle">
+                 <img src="imagens/HONDASTART.png" alt="Moto">
+                 <h2 class="ad-name">Moto</h2>
+                 <p class="ad-info">Informações da moto</p>
+               </div>
+
+               <div class="ad-motorcycle">
+                 <img src="imagens/HONDAFAN.png" alt="Moto">
+                 <h2 class="ad-name">Moto</h2>
+                 <p class="ad-info">Informações da moto</p>
+               </div>
+
+               <div class="ad-motorcycle">
+                 <img src="imagens/HONDAFAN.png" alt="Moto">
+                 <h2 class="ad-name">Moto</h2>
+                 <p class="ad-info">Informações da moto</p>
+               </div>
+
+               <h1>CARROS</h1>
+
+            </div>
+            <div class="ad-col">
+               <div class="ad-car">
+                 <img src="imagens/HONDACIVIC.png" alt="Carro">
+                 <h2 class="ad-name">Carro</h2>
+                 <p class="ad-info">Informações do carro</p>
+               </div>
+
+               <div class="ad-car">
+                 <img src="imagens/FORDFIESTA.png" alt="Carro">
+                 <h2 class="ad-name">Carro</h2>
+                 <p class="ad-info">Informações do carro</p>
+               </div>
+
+               <div class="ad-car">
+                 <img src="imagens/VWVITRUS.png" alt="Carro">
+                 <h2 class="ad-name">Carro</h2>
+                 <p class="ad-info">Informações do carro</p>
+               </div>
+            </div>
+           </div>
+
+    </main>
+        <footer>
+            <p>Site feito por Kevin,Vinicius,Kalel, Em parceria feita com a pedrão multimarcas-CD</p>
+            
+        </footer>
+
+</body>
+</html>  
