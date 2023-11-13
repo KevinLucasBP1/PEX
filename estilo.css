@@ -110,7 +110,7 @@ a:hover{
     box-shadow: 2px 0px rgba(0, 0, 0, 0.178);
    }
 
-   .ad-car a{
+   .ad-car, .ad-motorcycle a{
     background-color: white;
     
    }
@@ -240,6 +240,7 @@ a:hover{
    .container .content p{
        color: black;
        font-weight: bold;
+       text-align: justify;
        
    }
 
