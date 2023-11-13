@@ -110,9 +110,14 @@ a:hover{
     box-shadow: 2px 0px rgba(0, 0, 0, 0.178);
    }
 
-   .ad-car, .ad-motorcycle a{
+   .ad-car a{
     background-color: white;
     
+   }
+
+   .ad-motorcycle a{
+        background-color: white;
+
    }
    
    .ad-name {
