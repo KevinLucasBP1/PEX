@@ -109,6 +109,11 @@ a:hover{
     width: 80%;
     box-shadow: 2px 0px rgba(0, 0, 0, 0.178);
    }
+
+   .ad-car a{
+    background-color: white;
+    
+   }
    
    .ad-name {
     background-color: red;
